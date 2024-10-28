@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e4e4e4;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #0a5fa5;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--title {
+    font-size: 50px;
+    color: #5e76f0;
+    margin: 50px auto;
+    opacity: .8;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #48adf0;
+    color: #0452c0;
+
+}
+
+.game--status {
+    font-size: 50px;
+    color: #634ef1;
+    margin: 20px auto;
+}
+
+.game--restart {
+    width: 200px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 25px;
+    color: #344bdf;
+
+}
+
+.game--restart:hover {
+    background-color: #8cfefc;
+}
